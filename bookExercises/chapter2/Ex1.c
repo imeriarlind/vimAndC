@@ -1,17 +1,39 @@
 #include <stdio.h>
 
+
+void iteration (char a , int n)
+{
+	for (int i = 0 ; i < n ; i++)
+	{
+		printf("%c", a);
+	}
+}
+
 int main (void)
 {
-	int middleWhitespace, sideWhitespace, matrixSize = 10 ;	
+	int middleWhitespace, sideWhitespace, matrixSize = 5 ;	
+	
+	middleWhitespace = matrixSize * 2 - 1;
+	sideWhitespace = 0; 
 
 
 
-	for ( int i = 0 ; i < maxSize ; i++)
+	for ( int i = 0 ; i <= matrixSize ; i ++)
 	{
-		for ( int j = 0 ; j < maxSize ; j ++)
+		iteration(' ', sideWhitespace);
+		iteration('*', 1);
+		iteration(' ', middleWhitespace);
+
+		if(i != matrixSize)
 		{
-			
+			iteration('*', 1);
 		}
+
+		printf("\n");
+		
+		middleWhitespace -= 2 ;
+		sideWhitespace++ ;
 	}
+
 	return 0;
 }
