@@ -4,8 +4,11 @@
 int main (void)
 {
 
-    printf("%6d , %4d",86 , 1040);
 
+    scanf()
+
+    
+    int matrix[];
     return 0;
 
 }
