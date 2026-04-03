@@ -25,8 +25,7 @@ int main(void)
         printf("%10d%10d\n", i, i * i);
 
     }
-
-    return 0;
+        return 0;
 
 
 }
