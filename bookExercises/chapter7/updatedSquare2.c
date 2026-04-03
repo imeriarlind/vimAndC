@@ -3,19 +3,26 @@
 int main(void)
 {
 
-    long int i, n;
+    int i, n;
 
     printf("This program prints a table of squares.\n");
 
     printf("Enter number of entries in table: ");
-    scanf("%ld", &n);
+    scanf("%d", &n);
+    getchar();
 
     for (i = 1; i <= n; i++){
-        if ((long)(i*i) < 0){
-            printf("the lowest number who is also the same type when squared is %ld\n", --i);
+        if (i % 24 == 0) {
+            printf("Press enter to continue");
+            if (getchar()!= '\n'){
+                break;
+            }
+        }
+        if ((i*i) < 0){
+            printf("the lowest number who is also the same type when squared is %d\n", --i);
             break;
         }
-        printf("%10ld%10ld\n", i, i * i);
+        printf("%10d%10d\n", i, i * i);
 
     }
 
