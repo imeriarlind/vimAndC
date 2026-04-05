@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "stdbool.h"
+
 #define SIZE 10
 
 int main(void){
@@ -9,8 +10,6 @@ int main(void){
 
     printf("write a number ");
     scanf("%d", &number);
-
-    //7
 
     while (number > 0){
 
