@@ -9,7 +9,7 @@ int main (void)
 
 	float v = (4.0f/3.0f) * pi * rCubed;
 
-	printf("%f.2", v);
-	
+	printf("%.2f", v);
+
 	return 0;
 }
