@@ -6,10 +6,10 @@ int add (int a , int b){
 }
 
 int main() {
-    int a[10];
+    int a[10] = {0};
     //even do the 15th index doesent exist C doesent check for index out of bounds and doesent return any errors
     //to have this error checked you can use lint before compiling so you have better error controll
-    printf("%d \n", a[15]);
+    printf("%d \n", a[9]);
 
     a[1]= 5;
     a[2]= 6;

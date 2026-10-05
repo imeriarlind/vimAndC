@@ -2,7 +2,7 @@
 
 int main(void){
 
-    int numerator, denominato, devider;
+    int numerator, denominato;
 
     printf("shkruaj numrin e pare: ");
     scanf("%d", &numerator);

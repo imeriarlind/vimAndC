@@ -2,7 +2,8 @@
 
 
 int main(void){
-    int value, inverted;
+    int value;
+    long inverted=0;
 
     printf("Write the number you want to invert: ");
     scanf("%d", &value);
@@ -13,5 +14,5 @@ int main(void){
         value /= 10;
     }
 
-    printf("numri i invertuar eshte: %d\n", inverted);
+    printf("numri i invertuar eshte: %ld\n", inverted);
 }

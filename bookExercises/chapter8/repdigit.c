@@ -5,7 +5,7 @@
 
 int main(void){
 
-    bool checkRepetedNumbers [SIZE];
+    bool checkRepetedNumbers [SIZE] = {false};
     int number;
 
     printf("write a number ");
@@ -25,7 +25,6 @@ int main(void){
 
         number /= 10;
     }
-
 
     printf("No Repeated digit\n");
     return  0;

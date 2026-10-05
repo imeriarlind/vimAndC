@@ -6,7 +6,7 @@
 
 int main(void)
 {
-    int i, low_rate, num_years, year;
+    int  low_rate, num_years, year;
     double value[5];
 
 

@@ -8,6 +8,6 @@ int main(void){
 
     int a = 077, b = 0x77, c = 0xABC;
 
-    printf("a) = %u \n b) = %u \n c) = %u \n ", a , b , c);
+    printf("a) = %d \n b) = %d \n c) = %d \n ", a , b , c);
 
 }

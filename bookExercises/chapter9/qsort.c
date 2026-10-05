@@ -9,13 +9,13 @@ int main(void)
 {
 
     int a[]= {3,5,1,6,7,4,2,2,14,125};
-    for(int i=0; i < sizeof(a) / sizeof(a[0]); i++)
+    for(int i=0; i < (int)(sizeof(a) / sizeof(a[0])); i++)
         printf("%d ",a[i]);
 
     printf("\n");
     quicksort(a, sizeof(a) / sizeof(a[0]));
 
-    for(int i=0; i < sizeof(a) / sizeof(a[0]); i++)
+    for(int i=0; i < (int)(sizeof(a) / sizeof(a[0])); i++)
         printf("%d ",a[i]);
 
     return 0;

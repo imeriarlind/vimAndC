@@ -2,8 +2,8 @@
 
 int main (void)
 {
-	int a;
-	//prints the address that it alocated for that int not sure if it is in decimal or hexatecimal value
+	int a=1;
+
 	printf("%d", a);
 	return 0;
 
